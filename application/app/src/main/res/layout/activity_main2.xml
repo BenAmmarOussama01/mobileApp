@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity2.MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="299dp"
+            android:src="@drawable/sandwich" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients:" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1/2 cup all-purpose flour\n  1 teaspoon garlic powder\n  1 teaspoon ground mustard\n  1 teaspoon paprika\n  1/2 teaspoon cayenne pepper\n  1/4 teaspoon celery salt\n  1/4 teaspoon ground ginger\n  1/8 teaspoon dried oregano\n  1/8 teaspoon dried basil\n  1/8 teaspoon salt\n  1 1/2 teaspoons vegetable oil" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Procedure:" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  1. Whisk flour, sugar, baking powder, spices and salt in a bowl.\n  2. In a separate bowl whisk together milk, pumpkin," />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
